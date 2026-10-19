@@ -213,6 +213,12 @@
   @media(max-width:900px){.flow{grid-template-columns:repeat(3,1fr)}}
   @media(max-width:560px){.flow{grid-template-columns:repeat(2,1fr)}}
   .flow.six{}
+  .whygrid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,1.8vw,20px)}
+  @media(max-width:700px){.whygrid{grid-template-columns:1fr}}
+  .why h4{font-family:var(--display);font-weight:700;font-size:17px;color:var(--teal-ink);margin:0 0 8px}
+  .why p{margin:0 0 8px;font-size:15px;color:var(--ink-2)}
+  .why ul{margin:0;padding-left:20px;font-size:15px;color:var(--ink-2)} .why li{margin-bottom:5px}
+  .why b{color:var(--ink)}
 </style>
 </head><body><div class="page">
 
@@ -252,6 +258,31 @@
       </div>
 
     </div>
+  </section>
+
+  <section>
+    <div class="sh"><em>🌿</em><b>Why PDRN, Why VT</b></div>
+    <div class="whygrid">
+      <div class="card why">
+        <h4>Why PDRN?</h4>
+        <p>A skin-repairing ingredient first used in clinics, now in skincare. It helps:</p>
+        <ul>
+          <li><b>Deeply hydrate</b> and improve elasticity</li>
+          <li><b>Strengthen the skin barrier</b> and calm irritation</li>
+          <li>Visibly improve <b>texture and tone</b> over time</li>
+        </ul>
+      </div>
+      <div class="card why">
+        <h4>Why VT? PHYTO PDRN™</h4>
+        <p>Plant-based PDRN from <b>Korean wild ginseng</b>.</p>
+        <ul>
+          <li><b>Low molecular size</b>, so it absorbs easily</li>
+          <li><b>Gentle</b> enough for sensitive skin</li>
+          <li><b>No animal-derived</b> PDRN</li>
+        </ul>
+      </div>
+    </div>
+    <p class="slotcap">Say one line of this in your video, like <b>"it's PDRN from wild ginseng"</b></p>
   </section>
 
   <section>
